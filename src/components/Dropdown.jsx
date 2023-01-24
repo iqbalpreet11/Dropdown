@@ -23,7 +23,7 @@ const Dropdown = ({selected,setSelected}) => {
         </div>
       {isActive &&(
           <div className='drop-content'>
-          //listing over the data in list throug map
+          
                 {list.map((option) => 
                 (    <div onClick={(e) => {setSelected(option)
                 setIsActive(false)
